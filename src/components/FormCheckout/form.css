@@ -1,0 +1,24 @@
+.container-form{
+    margin-top: 80px;
+    border-top:solid 1px #ececec;
+    min-height:50vh;
+}
+.container-form h2{
+    padding: 20px 0px;
+}
+.input-form{
+    width: 20%;
+    padding:10px;
+    margin:10px;
+}
+.thanks{
+    border:none;
+}
+.danger{
+    color: #842029;
+    background-color: #f8d7da;
+    border-color: #f5c2c7;
+}
+body{
+    overflow-x: hidden;
+}

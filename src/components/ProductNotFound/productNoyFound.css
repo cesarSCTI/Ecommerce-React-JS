@@ -1,0 +1,8 @@
+.notFound{
+    font-size: 70px;
+    color:#2fc4b2;
+    margin: 50px 0px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: #ececec 0px 2px 5px;
+}
