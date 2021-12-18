@@ -55,7 +55,7 @@ p{
     align-items: center;
 }
 .price p{
-    width: 50%;
+    width: 100%;
 }
 .tags, .colors{
     padding: 10px 20px;

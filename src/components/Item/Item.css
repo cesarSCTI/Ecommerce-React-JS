@@ -1,3 +1,27 @@
-.btn{
-    
+.cardhover:hover{
+    box-shadow: 0 0 15px gray;
+    background: linear-gradient(180deg, rgba(178,240,232,1) 0%, rgba(141,229,219,1) 100%);
+    transition: .5s;
+    cursor:pointer;
+}
+.card p, span{
+    color:#000;
+    text-align: left;
+}
+.categorys{
+    font-size: 12px;
+    color:#117c6f;
+    font-weight: 600;
+    position: absolute;
+    top:0;
+    right: 0px;
+    background-color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-bottom: 2px solid #117c6f;
+}
+.cardhover:hover .categorys{
+    color:#fff;
+    background-color: #117c6f;
+    transition:.5s;
 }

@@ -64,7 +64,10 @@ const ItemListContainer = ({getting}) =>{
         <Container fluid className="listContainer">
             <Row>
                 <Col>
-                    <h3><span>{getting}</span></h3>
+                    <h3 style={{textTransform: 'uppercase'}}><span>{
+                        // verificamos la existencia de getting
+                        getting  === undefined ? categoryID : getting
+                        }</span></h3>
                 </Col>
             </Row>
             

@@ -21,7 +21,6 @@ const CartWithContent = () => {
                 <Table striped bordered hover variant="dark">
                     <thead>
                         <tr>
-                            <th>ID</th>
                             <th>Nombre</th>
                             <th>Cantidad</th>
                             <th>Costo</th>
@@ -31,7 +30,6 @@ const CartWithContent = () => {
                     <tbody>
                     {cartList.map(prod =>
                         <tr key={prod.id}>
-                            <td>{prod.id}</td>
                             <td>{prod.title}</td>
                             <td>{prod.cantidad}</td>
                             <td>${prod.price}.00</td>

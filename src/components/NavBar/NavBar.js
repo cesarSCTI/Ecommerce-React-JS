@@ -3,9 +3,9 @@ import Navbar from 'react-bootstrap/Navbar'
 import { Nav } from "react-bootstrap";
 import logo from '../../../src/logo-guzmar-sport.png'
 import CartWidget from "../CartWidget/CartWidget";
-import './navbar.css';
 import { Link } from "react-router-dom";
 import { cartContext } from "../../context/cartContext";
+import './navbar.css';
 
 
 
@@ -27,7 +27,7 @@ const NavBar = () =>{
         setcant(itemCounter)
     }, [itemCounter])
     return(
-        <Navbar  expand="lg" style={{padding: '10px',backgroundColor:'#ececec', boxShadow:'0px 0px 10px #cecece'}}>
+        <Navbar  expand="lg" style={{padding: '10px',backgroundColor:'#ececec', boxShadow:'0px 0px 15px gray'}}>
             <Navbar.Brand >
                 <Link to="/">
                     <img src={logo} alt="logo" hight="60px" width="60px"/>

@@ -50,8 +50,10 @@ const ItemDetail = ({item}) => {
                         </p>
                     </div>
                     <div className="price">
-                            <p><b>Precio</b></p><br />
-                            ${item.price}
+                            <p><b>Precio:  $</b> {item.price}</p>
+                           
+                    </div>
+                    <div className="price">
                         {agregado === 0 ?
                             <ItemCount stock={10} initial={1} onClick={onAdd}/>
                             :

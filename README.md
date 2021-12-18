@@ -41,4 +41,5 @@ npm install firebase@8.9.1
 | Validacion de formularios|
 ```sh
 npm install -S yup
-```# ProyectoFinalCoderhouseReact
+```
+# ProyectoFinalCoderhouseReact
