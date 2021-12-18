@@ -8,6 +8,14 @@
     width: 100%;
     height: 250px !important;
 }
+@media only screen and (max-width:1300px){
+  .ItemList{
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+}
 @media only screen and (max-width:600px){
   .ItemList{
   grid-template-columns: repeat(1, 1fr);
